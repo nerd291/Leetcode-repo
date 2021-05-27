@@ -1,10 +1,13 @@
 public class DVD {
 
-    public DVD[] dvdCollection = new DVD[15];
-
+    DVD[] dvdCollection = new DVD[15];
     public String name;
     public int releaseYear;
     public String director;
+
+    public static void main(String args[]){
+        System.out.println(DVD());
+    }
 
     public DVD(String name, int releaseYear, String director) {
         this.name = name;
@@ -12,8 +15,9 @@ public class DVD {
         this.director = director;
     }
 
-    // public String toString() {
-    //     System.out.println(
-    //         this.name + ", directed by " + this.director + ", released in " + this.releaseYear);
-    // }
+    public String string() {
+        System.out.println(
+            this.name + ", directed by " + this.director + ", released in " + this.releaseYear);
+        return null;
+    }
 }

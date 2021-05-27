@@ -5,7 +5,7 @@ public class ArrayLoop {
         for(int i=0;i<10;++i){
             int square = (i+1)*(i+1);
             squareNumbers[i]=square;
-            System.out.println(squareNumbers[i]);
+            System.out.println(square);
         }
     }
 }
