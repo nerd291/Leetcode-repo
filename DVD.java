@@ -6,7 +6,7 @@ public class DVD {
     public String director;
 
     public static void main(String args[]){
-        System.out.println(DVD());
+        // System.out.println(DVD());
     }
 
     public DVD(String name, int releaseYear, String director) {
